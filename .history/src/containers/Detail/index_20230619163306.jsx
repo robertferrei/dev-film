@@ -4,7 +4,7 @@ import {
     getMovieByid,
     getMovieCredits, getMovieSimilar, getMovieVideos, getMovieVideosDetail
 } from "../../../services/getData"
-import { Background, Carrosel, Container, ContainerMovies, Cover, Info, } from "./styles"
+import { Background, Container, ContainerMovies, Cover, Info, } from "./styles"
 import { useParams } from 'react-router-dom'
 import Slider from '../../components/Slider'
 
@@ -74,11 +74,8 @@ function Detail() {
                             <h2>{movie.title}</h2>
                             <SpanGenres genres={movie.genres} />
                             <p>{movie.overview}</p>
-
-                            <Carrosel> 
                             <div><Credits credits={movieCredits} />
                             </div>
-                            </Carrosel>
                         </Info>
 
 

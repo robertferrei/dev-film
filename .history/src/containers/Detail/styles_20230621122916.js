@@ -182,13 +182,8 @@ export const ContainerMovies = styled.div`
 
 `
 
-export const Carrosel = styled.div`
-    @media (max-width: 1000px) {
-           overflow: scroll;
-           width: 100%;
+export const Carrosel= styled.div`
 
-            
-        }
 
 `
 

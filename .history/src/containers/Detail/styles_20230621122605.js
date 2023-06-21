@@ -106,8 +106,7 @@ export const Info = styled.div`
         @media (max-width: 1000px) {
            overflow: scroll;
            width: 100%;
-
-            
+        
         }
          
            
@@ -161,7 +160,6 @@ export const ContainerMovies = styled.div`
 
         @media (max-width: 1000px) {
           overflow:scroll;
-          width: 100%;
            
             
         }
@@ -179,16 +177,6 @@ export const ContainerMovies = styled.div`
         border: none;
 
     }
-
-`
-
-export const Carrosel = styled.div`
-    @media (max-width: 1000px) {
-           overflow: scroll;
-           width: 100%;
-
-            
-        }
 
 `
 

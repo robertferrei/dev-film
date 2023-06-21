@@ -107,7 +107,10 @@ export const Info = styled.div`
            overflow: scroll;
            width: 100%;
 
-            
+           .credits{
+            display: none;
+           }
+        
         }
          
            
@@ -179,16 +182,6 @@ export const ContainerMovies = styled.div`
         border: none;
 
     }
-
-`
-
-export const Carrosel = styled.div`
-    @media (max-width: 1000px) {
-           overflow: scroll;
-           width: 100%;
-
-            
-        }
 
 `
 
