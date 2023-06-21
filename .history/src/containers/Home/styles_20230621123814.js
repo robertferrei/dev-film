@@ -22,7 +22,7 @@ export const Background = Styled.div`
     @media (max-width: 1000px) {
         background-size:400% ;
         background-repeat: no-repeat;
-        width: 120%;
+        width: 110%;
         
        
       
@@ -43,7 +43,7 @@ export const Background = Styled.div`
         background-color:rgba(0,0,0,0.5) ;
 
         @media (max-width: 1000px) {
-            width:120% ;
+            width:110% ;
         }
     }
 
@@ -107,7 +107,12 @@ export const Info = Styled.div`
 `
 export const Poster = styled.div`
 
- 
+
+@media (max-width:1000px){
+   display: ;
+    
+                    
+}
 z-index:99;
      img{
          width: 400px;
@@ -118,8 +123,7 @@ z-index:99;
          animation: ${scale} 0.6s linear;
 
          @media (max-width:1000px){
-                    width: 150px;
-                    
+                    width: 200px;
                    
                     
                     

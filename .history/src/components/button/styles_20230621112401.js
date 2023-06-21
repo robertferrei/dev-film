@@ -36,8 +36,7 @@ export const ButtonRed = styled.button`
        
     display:flex ;
     justify-content:center;
-    width: 200px;
-    margin-right:20px;
+   width: 200px;
     
      }
 

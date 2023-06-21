@@ -43,7 +43,7 @@ export const Background = Styled.div`
         background-color:rgba(0,0,0,0.5) ;
 
         @media (max-width: 1000px) {
-            width:120% ;
+            width:110% ;
         }
     }
 
